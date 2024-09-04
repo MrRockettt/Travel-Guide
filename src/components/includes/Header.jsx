@@ -20,7 +20,7 @@ function Header() {
         {userData ? (
           <Button onClick={handleLogout}>Logout</Button>
         ) : (
-          <Button as="a" href="auth/login">
+          <Button as="a" href="/auth/login">
             Login
           </Button>
         )}
